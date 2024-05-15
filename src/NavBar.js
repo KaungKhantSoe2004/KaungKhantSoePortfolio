@@ -8,6 +8,7 @@ import { Home } from "./components/homeComponent";
 import { Portfolio } from "./components/PortfolioComponent";
 import { Contact } from "./components/ContactComponent";
 import { About } from "./components/aboutComponent";
+
 export const NavBar = ({ isNavBar, setIsNavBar }) => {
   // const [isNavBar, setIsNavBar] = useState(false);
   const [offSetLeft, setOffSetLeft] = useState();
@@ -60,6 +61,13 @@ export const NavBar = ({ isNavBar, setIsNavBar }) => {
           <Link className="navBarLink w-md-100 w-75 d-block" to="#contact">
             Contact
           </Link>
+          <a
+            href={require("./components/img/Blue & Pink Minimal Clean Web Developer CV Resume.pdf")}
+            download="KaungKhantSoecv.pdf"
+            className="navBarLink w-md-100 w-75 d-block"
+          >
+            Download CV
+          </a>
           {/* </div> */}
         </div>
 
