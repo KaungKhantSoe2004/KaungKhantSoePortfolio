@@ -5,13 +5,19 @@ body {
   overflow-x: hidden;
   /* width: max-content; */
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .myname {
   color: white;
   text-align: center;
 }
-.home {
+/* .home {
   width: 100vw;
-}
+  padding: 0;
+} */
 .navBarLink {
   text-decoration: none;
   color: white;
@@ -122,6 +128,7 @@ body {
   /* background-image: "../src/components/img/transformer.png"; */
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  margin: 0;
   background-color: bisque;
 }
 .writerContainer {
@@ -585,10 +592,12 @@ p {
 @media (max-width: 1300px) {
   body {
     background-color: #061722;
-    max-width: 100%;
-
+    width: 100%;
     overflow-x: hidden;
     /* width: max-content; */
+  }
+  .home {
+    width: 100%;
   }
   .navIcon {
     z-index: 3;
@@ -623,5 +632,18 @@ p {
   .navIcon > div {
     width: 1.5rem;
     margin-right: 1.2rem;
+  }
+}
+
+@media (max-width: 930px) {
+  .app {
+    width: 100%;
+  }
+  body {
+    background-color: #061722;
+    width: 80%;
+    padding: -45px;
+    overflow-x: hidden;
+    /* width: max-content; */
   }
 }

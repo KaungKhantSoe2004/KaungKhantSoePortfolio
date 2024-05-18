@@ -20,7 +20,7 @@ export const App = () => {
   }, []);
   return (
     <BrowserRouter>
-      <div className="app ">
+      <div className="app w-100 overflow-hidden ">
         <NavBar isNavBar={isNavBar} setIsNavBar={setIsNavBar} />
 
         <div

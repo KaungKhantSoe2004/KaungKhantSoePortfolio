@@ -5,7 +5,7 @@ export const WhatIDo = () => {
     <div
       data-aos="zoom-out"
       data-aos-once="true"
-      className="whatIDo container my-5"
+      className="whatIDo container col-12 my-5"
     >
       <div className=" d-flex justify-content-center">
         <h4 className="whatIDoHeader pb-1 mt-4">What I Do!</h4>
