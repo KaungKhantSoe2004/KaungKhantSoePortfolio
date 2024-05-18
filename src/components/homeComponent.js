@@ -2,7 +2,7 @@ export const Home = () => {
   return (
     <div
       data-aos="fade-in"
-      className="home  bg-black w-100 d-flex flex-column align-items-center justify-content-center"
+      className="home  bg-black  d-flex flex-column align-items-center justify-content-center"
       id="home"
     >
       <h4 className="intro text-center text-info homeUText ">

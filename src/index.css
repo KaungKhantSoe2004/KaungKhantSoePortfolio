@@ -1,10 +1,16 @@
 body {
   background-color: #061722;
+  max-width: 100%;
+
   overflow-x: hidden;
+  /* width: max-content; */
 }
 .myname {
   color: white;
   text-align: center;
+}
+.home {
+  width: 100vw;
 }
 .navBarLink {
   text-decoration: none;
@@ -577,6 +583,13 @@ p {
 /* contact session end */
 /* queries start */
 @media (max-width: 1300px) {
+  body {
+    background-color: #061722;
+    max-width: 100%;
+
+    overflow-x: hidden;
+    /* width: max-content; */
+  }
   .navIcon {
     z-index: 3;
     top: 10%;
