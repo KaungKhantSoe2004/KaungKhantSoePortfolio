@@ -4,9 +4,11 @@ import emailjs from "@emailjs/browser";
 import { FaEnvelope, FaPhone, FaSearchLocation } from "react-icons/fa";
 export const Contact = () => {
   const form = useRef();
+  const [isMailed, setIsMailed] = useState(false);
   const submit = (data) => {
+    setIsLoading(true);
     console.log(data);
-
+    setIsMailed(false);
     emailjs
       .sendForm(
         "service_kow2nt9",
@@ -17,9 +19,12 @@ export const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setIsMailed(true);
+          setIsLoading(false);
         },
         (error) => {
           console.log(error.text);
+          setIsLoading(false);
         }
       );
   };
@@ -27,10 +32,12 @@ export const Contact = () => {
     register,
     handleSubmit,
     watch,
+    reset,
     formState: { errors },
     setValue,
   } = useForm();
   const [name, setName] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
   return (
     <div
       data-aos="zoom-out"
@@ -71,7 +78,15 @@ export const Contact = () => {
             </div>
           </div>
         </div>
+
         <div className=" inputContainer col-md-6 col-12 mt-5 ms-md-0 ms-5">
+          {isMailed && (
+            <div class="alert alert-success">
+              <strong>Success!</strong> You have successfully mailed to Kaung
+              Khant Soe.
+            </div>
+          )}
+
           <form
             className="form d-flex flex-column  "
             onSubmit={handleSubmit(submit)}
@@ -119,9 +134,10 @@ export const Contact = () => {
             <button
               type="submit"
               value="Send"
+              // disabled={`${isLoading ? true : false}`}
               className="contactBtn col-3 p-1 my-2"
             >
-              Send
+              {isLoading ? "loading" : "Send"}
             </button>
           </form>
         </div>
