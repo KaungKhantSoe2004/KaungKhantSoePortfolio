@@ -44,7 +44,7 @@ export const Portfolio = () => {
           img={require("./img/workout.png")}
           ke={"3"}
           name={"Work Out App"}
-          link={"https://github.com/KaungKhantSoe2004/LinWorkOut"}
+          link={"https://lin-work-out.vercel.app/"}
           lang={" used Html, Css, Js, Bootstrap, React and WorkOut Api "}
         />
 
@@ -76,11 +76,11 @@ export const Portfolio = () => {
         />
 
         <PortfolioBox
-          img={require("./img/linNews.png")}
-          name={"News App "}
+          img={require("./img/recipe.png")}
+          name={"Recipe App "}
           ke={10}
-          link={"https://github.com/KaungKhantSoe2004/Lin-News-by-KKS"}
-          lang={" used Html, Css, React and News Api"}
+          link={"https://kaung-khant-soe-recipe-app.vercel.app/"}
+          lang={" used Html, Css, React and the Meal db Api"}
         />
         {/* <PortfolioBox
           img={require("./img/Screenshot (4).png")}
