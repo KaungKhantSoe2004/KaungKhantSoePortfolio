@@ -23,7 +23,9 @@ export const Portfolio = () => {
           name={"AMZscout members.com User side "}
           ke={5}
           link={"https://usertesting.amzscoutmembers.com/"}
-          lang={" used Html, Css, Bootstrap, React,React-redux"}
+          lang={
+            " used Html, Css, Bootstrap, React,React-redux (use this invitation code to register - 3d4RQP)"
+          }
         />
         <PortfolioBox
           img={require("./img/lms-student-side.png")}
