@@ -16,7 +16,7 @@ export const Portfolio = () => {
           name={"AMZscout members.com  Admin Panel "}
           ke={5}
           link={"https://admintesting.amzscoutmembers.com/"}
-          lang={" used Html, Css, Bootstrap, mysql and   Laravel"}
+          lang={" used Html, Css, Bootstrap, mysql and Laravel// React Version"}
         />
         <PortfolioBox
           img={require("./img/userAmz.png")}
@@ -24,7 +24,7 @@ export const Portfolio = () => {
           ke={5}
           link={"https://usertesting.amzscoutmembers.com/"}
           lang={
-            " used Html, Css, Bootstrap, React,React-redux (use this invitation code to register - 3d4RQP)"
+            " used Html, Css, Bootstrap, React,React-redux //React Version (use this invitation code to register - 3d4RQP)"
           }
         />
         <PortfolioBox
