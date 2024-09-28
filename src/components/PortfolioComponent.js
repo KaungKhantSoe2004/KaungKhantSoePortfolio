@@ -11,9 +11,20 @@ export const Portfolio = () => {
         <h3 className=" pt-4 pb-1 myPortfolio">My Portfolio</h3>
       </div>
       <div className="projectsContainer row ps-md-4 ps-1">
-        {/* <a href="https://book-store-by-kks.vercel.app/">
-          <img src={require("./img/R.png")} alt="" class="img-thumbnail" />
-        </a> */}
+        <PortfolioBox
+          img={require("./img/adminAmzscout.png")}
+          name={"AMZscout members.com  Admin Panel "}
+          ke={5}
+          link={"https://admintesting.amzscoutmembers.com/"}
+          lang={" used Html, Css, Bootstrap, mysql and   Laravel"}
+        />
+        <PortfolioBox
+          img={require("./img/userAmz.png")}
+          name={"AMZscout members.com User side "}
+          ke={5}
+          link={"https://usertesting.amzscoutmembers.com/"}
+          lang={" used Html, Css, Bootstrap, React,React-redux"}
+        />
         <PortfolioBox
           img={require("./img/lms-student-side.png")}
           name={" Learning Management System Student Side "}
