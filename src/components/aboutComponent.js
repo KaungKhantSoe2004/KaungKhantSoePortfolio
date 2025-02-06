@@ -14,26 +14,26 @@ export const About = () => {
             <h3 className=" text-uppercase text-info fw-normal">
               A web developer
             </h3>
-            based in Myanmar.I am a web developer and context writer. I do
-            remote work for agencies, consulted for startups, and collaborated
-            with talented people to create digital products for both business
-            and customer use.I started to enter the programming field at 2022 .I
-            have learned HTML , CSS and Java-script at YouTube channels. After I
-            have built responsive , various features included, websites which
-            also use API features, I attended REACT class as I am interested in
-            front-end designs. I spent about one year building API based react
-            websites and deep diving to REACT. I can use REACT hooks and
-            react-redux.Then I want to learn backend.So I enrolled a
-            full-stack-course which contains HTML,CSS,JS,Jquery,Vue-X,PHP and
-            laravel course.After the course is ended, I have the knowledge to
-            build full-stack-app with pure laravel , laravel as backend and
-            admin-side-template and react as user-side or Vue as user-side.I
-            built a learning management system app using laravel as backend and
-            admin-side-template and react as user-side. I added
-            paypal-integration and email used OTP aunthenication in admin-side.
-            I'm open to Job opportunities where I can contribute, learn and
-            grow. If you have a good opportunity that matches my skills and
-            experience then don't hesitate to contact me.
+            I am a web developer specializing in both front-end and back-end
+            development. I worked remotely for agencies, consult for startups,
+            and collaborate with talented teams to create digital products for
+            business and customer use. My programming journey began in 2022 when
+            I started learning HTML, CSS, and JavaScript through YouTube. After
+            building responsive websites with API integrations, I expanded my
+            skills by attending a React class, where I spent a year building
+            API-based React applications and mastering React hooks and
+            React-Redux. Wanting to dive deeper, I enrolled in a full-stack
+            course, learning HTML, CSS, JS, jQuery, Vue.js, PHP, and Laravel.
+            This allowed me to build full-stack applications using Laravel for
+            the back-end, and React or Vue.js for the front-end. One of my
+            projects includes a Learning Management System (LMS) app, where I
+            integrated PayPal and implemented OTP-based email authentication for
+            the admin side. I am currently in my fourth term at the University
+            of the People (UoPeople), an online institution, where I manage my
+            assignments and coursework on public weekends. I'm eager for job
+            opportunities where I can contribute, learn, and grow. Feel free to
+            contact me if you have a role or project that aligns with my skills
+            and experience.
             {/* and consumer use. I'm quietly confident, naturally curious, and
             perpetually working on improving my chops one design problem at a
             time. As a designer,I value simple content structure, clean design

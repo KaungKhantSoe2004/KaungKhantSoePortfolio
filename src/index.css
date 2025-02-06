@@ -354,7 +354,7 @@ p {
 }
 
 .php {
-  width: 65%;
+  width: 80%;
   animation: php 2.5s;
 }
 @keyframes php {

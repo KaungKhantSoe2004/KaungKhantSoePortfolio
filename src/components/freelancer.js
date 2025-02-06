@@ -11,20 +11,27 @@ export const Freelancer = () => {
       <div className="freelanceAndSkills p-3 row ">
         <div className=" col-md-5 col-11 mt-4 ms-md-0 ms-3">
           <h4 className=" text-white  my-3">Freelancer</h4>
-          <div className="freelanceText  col-12 text-white-50">
-            Freelancers are usually solitary workers. Moving from workplace to
-            workplace is difficult as they all have slightly different quirks
-            and working practices. Ask what you can do to help, make suggestions
-            about what you can do next if you come to the end of one task, and
-            let people know that you are available. Always keep yourself fit for
-            the work. Doing your job effectively and efficiently is very
-            important. 8. Provide value for money Providing a good service for a
-            fair level of remuneration is valuable. You should be skilled,
-            experienced and talent. You should have worth for getting higher
-            rate than other freelancers. You will be able to earn more. 9. Try
-            to continually add value to what you offer Try to improve your
-            skill.
+          <div className="freelanceText col-12 text-white-50">
+            As a freelancer, I have had the opportunity to work on a variety of
+            exciting projects that span across different industries. My
+            expertise lies in full-stack web development, where I specialize in
+            building scalable and responsive applications using technologies
+            like **Laravel**, **React**, and **Tailwind CSS**. Throughout my
+            freelance career, I have successfully delivered several e-commerce
+            platforms, admin dashboards, and custom web applications. In each
+            project, I ensure seamless integration between the front-end and
+            back-end, providing users with smooth and interactive experiences.
+            Working independently has honed my skills in time management,
+            problem-solving, and client communication. I have collaborated with
+            clients from diverse backgrounds, understanding their unique
+            requirements, and offering tailored solutions that meet their needs.
+            I prioritize high-quality code, clean designs, and user-centric
+            development, which has allowed me to build a solid reputation among
+            my clients. I continue to stay updated with the latest trends and
+            technologies in web development, ensuring that the projects I work
+            on are always modern and efficient.
           </div>
+
           <div className=" mt-3 reviewsContainer col-12 row">
             <div className="reviewContainer col-4 ">
               <h3 className="reviewNum text-center m-0 p-0">10+</h3>
@@ -49,7 +56,7 @@ export const Freelancer = () => {
         <div className=" offset-md-1 col-md-6 col-12 mt-4 pb-4 ">
           <h4 className=" text-white ms-3">My Skills</h4>
           <div className=" skillsContainer col-11 ms-3">
-            <div>
+            {/* <div>
               <div className=" ps-3 fs-5 text-white mt-4">HTML</div>
               <div className="skillcontainer">
                 <div className="html overflow-hidden mt-1 text-white pe-3 ">
@@ -63,7 +70,7 @@ export const Freelancer = () => {
               <div className="skillcontainer">
                 <div className="css mt-1 text-white pe-3">86%</div>
               </div>
-            </div>
+            </div> */}
 
             <div>
               <div className=" ps-3 fs-5 text-white mt-2">Javascript</div>
@@ -87,9 +94,9 @@ export const Freelancer = () => {
             </div>
 
             <div>
-              <div className=" ps-3 fs-5 text-white mt-2">PHP</div>
+              <div className=" ps-3 fs-5 text-white mt-2">Python</div>
               <div className="skillcontainer">
-                <div className="php mt-1 text-white pe-3">65%</div>
+                <div className="php mt-1 text-white pe-3">80%</div>
               </div>
             </div>
 

@@ -13,19 +13,34 @@ export const Portfolio = () => {
       <div className="projectsContainer row ps-md-4 ps-1">
         <PortfolioBox
           img={require("./img/adminAmzscout.png")}
-          name={"AMZscout members.com  Admin Panel "}
+          name={"Han-commerce Backend project (##InProgress) "}
           ke={5}
-          link={"https://admintesting.amzscoutmembers.com/"}
+          link={"https://github.com/KaungKhantSoe2004/han-commerce-backend"}
           lang={" used Html, Css, Bootstrap, mysql and Laravel// React Version"}
         />
         <PortfolioBox
-          img={require("./img/userAmz.png")}
-          name={"AMZscout members.com User side "}
+          img={require("./img/han-commerce.jpeg")}
+          name={"Han-commerce Front-end project (##InProgress) "}
           ke={5}
-          link={"https://usertesting.amzscoutmembers.com/"}
+          link={"https://github.com/KaungKhantSoe2004/han-commerce-f-end"}
           lang={
-            " used Html, Css, Bootstrap, React,React-redux //React Version (use this invitation code to register - 3d4RQP)"
+            " used Html, Css, Tailwind Css, React,React-redux //React Version "
           }
+        />
+
+        <PortfolioBox
+          img={require("./img/recipe.png")}
+          name={"Recipe App "}
+          ke={10}
+          link={"https://kaung-khant-soe-recipe-app.vercel.app/"}
+          lang={" used Html, Css, React and the Meal db Api"}
+        />
+        <PortfolioBox
+          img={require("./img/workout.png")}
+          ke={"3"}
+          name={"Work Out App"}
+          link={"https://lin-work-out.vercel.app/"}
+          lang={" used Html, Css, Js, Bootstrap, React and WorkOut Api "}
         />
         <PortfolioBox
           img={require("./img/lms-student-side.png")}
@@ -52,13 +67,6 @@ export const Portfolio = () => {
           }
           ke={"4"}
           lang={" used Html, Css, Js, Bootstrap, Laravel"}
-        />
-        <PortfolioBox
-          img={require("./img/workout.png")}
-          ke={"3"}
-          name={"Work Out App"}
-          link={"https://lin-work-out.vercel.app/"}
-          lang={" used Html, Css, Js, Bootstrap, React and WorkOut Api "}
         />
 
         <PortfolioBox
@@ -88,13 +96,6 @@ export const Portfolio = () => {
           lang={" used Html, Css, Js, Bootstrap, Laravel"}
         />
 
-        <PortfolioBox
-          img={require("./img/recipe.png")}
-          name={"Recipe App "}
-          ke={10}
-          link={"https://kaung-khant-soe-recipe-app.vercel.app/"}
-          lang={" used Html, Css, React and the Meal db Api"}
-        />
         {/* <PortfolioBox
           img={require("./img/Screenshot (4).png")}
           name={"Note App"}
