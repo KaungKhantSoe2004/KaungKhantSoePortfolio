@@ -41,7 +41,7 @@ export const App = () => {
 
         <Freelancer />
 
-        <WhatIDo />
+        {/* <WhatIDo /> */}
         <div className="anyProjects col-12  py-3 my-3">
           <h4 className=" text-center text-white">Do You Have Any Projects?</h4>
           <h3 className=" text-center text-white mt-3">

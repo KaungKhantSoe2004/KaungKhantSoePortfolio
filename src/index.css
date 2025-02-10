@@ -1,5 +1,5 @@
 body {
-  background-color: #061722;
+  background: linear-gradient(135deg, #000000, #0a0a0a, #141414, #1f1f1f);
   max-width: 100%;
 
   overflow-x: hidden;
@@ -55,7 +55,7 @@ body {
   transform: rotate(45deg) translateY(-5px);
 }
 .navBa {
-  background-color: #061f30;
+  background-color: black;
   border-right: solid 1px #00abf0;
   color: white;
   min-height: 100vh;
@@ -275,13 +275,13 @@ p {
 
 /* freelancer section start */
 .freelancer {
-  box-shadow: 0 11px 28px;
-  border-radius: 1.1rem;
-  background-color: #040f17;
+  /* box-shadow: 0 11px 28px; */
+  border-radius: 0.3rem;
+  /* background: linear-gradient(135deg, #000000, #0a0a0a, #141414, #1f1f1f); */
 }
 .aboutMe {
   color: #00abf0;
-  border-bottom: solid 1px rgb(35, 32, 32);
+
   padding-bottom: 3px;
 }
 .skillcontainer div {
@@ -404,13 +404,12 @@ p {
 
 /* Portfolio section start */
 .protfolioContainer {
-  box-shadow: 0 11px 28px;
+  /* box-shadow: 0 11px 28px; */
   border-radius: 1.1rem;
-  background-color: #040f17;
+  /* background: black; */
 }
 .myPortfolio {
   color: #00abf0;
-  border-bottom: solid 1px rgb(35, 32, 32);
 }
 .projectsContainer {
   margin-top: 30px;
@@ -427,7 +426,7 @@ p {
   /* background-color: #061f30; */
   height: 250px;
   overflow: hidden;
-  box-shadow: 0, 2px 20px 2px rgba(0 0, 0, 0.3);
+  /* box-shadow: 0, 2px 20px 2px rgba(0 0, 0, 0.3); */
 }
 .portfolioText {
   color: #00abf0;
@@ -446,15 +445,11 @@ p {
   border-left: solid 10px #00abf0;
 }
 .portfolioBoxContainer:hover {
-  background-color: linear-gradient(
-    35deg,
-    rgb(0, 0, 46, 0.8),
-    rgba(1, 1, 35, 0)
-  );
+  background-color: black;
 }
 .portfolioBoxContainer:hover .portfolioImg {
-  opacity: 0.5;
-  background-color: #253947;
+  opacity: 0.3;
+  background-color: black;
 }
 .portfolioBoxContainer:not(:hover) .portfolioText {
 }
@@ -523,12 +518,11 @@ p {
 /* what I do section start */
 .whatIDoHeader {
   color: #00abf0;
-  border-bottom: solid 1px rgb(35, 32, 32);
 }
 .whatIDo {
-  box-shadow: 0 11px 28px;
+  /* box-shadow: 0 11px 28px; */
   border-radius: 1.1rem;
-  background-color: #040f17;
+  background: linear-gradient(135deg, #000000, #0a0a0a, #141414, #1f1f1f);
 }
 .eachDo {
   background-color: #061722;
@@ -544,8 +538,8 @@ p {
 
 /* any projects session start */
 .anyProjects {
-  margin-top: 30px;
-  background-color: #040f17;
+  margin-top: 40px;
+  background: black;
 }
 .anyContact {
   background-color: antiquewhite;
@@ -562,7 +556,6 @@ p {
 }
 .contactHeader {
   color: #00abf0;
-  border-bottom: solid 1px rgb(35, 32, 32);
 }
 .form > input {
   border-radius: 0.3rem;

@@ -62,7 +62,7 @@ export const NavBar = ({ isNavBar, setIsNavBar }) => {
             Contact
           </Link>
           <a
-            href={require("./components/img/Blue & Pink Minimal Clean Web Developer CV Resume.pdf")}
+            href={require("./components/img/KaungKhantSoe.pdf")}
             download="KaungKhantSoecv.pdf"
             className="navBarLink w-md-100 w-75 d-block"
           >

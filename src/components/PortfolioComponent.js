@@ -5,10 +5,10 @@ export const Portfolio = () => {
     <div
       data-aos="zoom-out"
       data-aos-once="true"
-      className="protfolioContainer my-3 container "
+      className="protfolioContainer my-3 container bg-black "
     >
       <div className=" d-flex justify-content-center mt-3">
-        <h3 className=" pt-4 pb-1 myPortfolio">My Portfolio</h3>
+        <h3 className=" pt-4 pb-1 text-center myPortfolio">My Portfolio</h3>
       </div>
       <div className="projectsContainer row ps-md-4 ps-1">
         <PortfolioBox
