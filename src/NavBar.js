@@ -15,7 +15,7 @@ export const NavBar = ({ isNavBar, setIsNavBar }) => {
 
   return (
     <div
-      className={`navBa col-md-3 h-100 col-6 d-flex flex-column  justify-content-center align-items-center  ${
+      className={`navBa  col-md-3 h-100 col-12 d-flex flex-column  justify-content-center align-items-center  ${
         isNavBar && "navBarClose"
       }`}
     >
@@ -71,7 +71,7 @@ export const NavBar = ({ isNavBar, setIsNavBar }) => {
           {/* </div> */}
         </div>
 
-        <button
+        {/* <button
           className="toggleContainer d-md-flex d-none justify-content-center align-items-center  "
           onClick={() => {
             setIsNavBar(!isNavBar);
@@ -81,7 +81,7 @@ export const NavBar = ({ isNavBar, setIsNavBar }) => {
             {" "}
             {isNavBar ? ">" : "<"}{" "}
           </h3>
-        </button>
+        </button> */}
       </div>
     </div>
   );

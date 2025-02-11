@@ -4,12 +4,12 @@ export const About = () => {
     <div
       data-aos="zoom-out"
       data-aos-once="true"
-      className="about my-5 fade-left  row"
+      className="about my-5 fade-left bg-black  row"
       id="about"
     >
-      <div className="col-md-6 textContainer mt-5 col-12">
+      <div className="col-md-6 bg-black textContainer mt-5 col-12">
         <div className=" d-md-flex ms-md-5 ms-3 flex-column align-items-end justify-content-center d-block  mt-3">
-          <p className="col-md-10 col-12 text-white-50">
+          <p className="col-md-10 col-12 text-white-50 bg-black">
             Hello, my name is Kaung Khant Soe,{" "}
             <h3 className=" text-uppercase text-info fw-normal">
               A web developer

@@ -24,7 +24,8 @@ export const App = () => {
         <NavBar isNavBar={isNavBar} setIsNavBar={setIsNavBar} />
 
         <div
-          className="navIcon position-fixed top-25 "
+          className="navIcon opacity-100  position-fixed top-25 "
+          style={{ zIndex: "300" }}
           onClick={() => {
             setIsNavBar(!isNavBar);
             console.log(isNavBar);

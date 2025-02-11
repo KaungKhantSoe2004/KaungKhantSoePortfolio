@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(135deg, #000000, #0a0a0a, #141414, #1f1f1f);
+  background-color: black;
   max-width: 100%;
 
   overflow-x: hidden;
@@ -80,7 +80,7 @@ body {
 .navBarLink:hover {
   background-color: #00abf0;
   cursor: pointer;
-  color: #061722;
+  color: black;
 }
 /* .navContainer > div {
   background-color: #253947;
@@ -92,7 +92,7 @@ body {
 .navContainer > div:hover {
   background-color: #00abf0;
   cursor: pointer;
-  color: #061722;
+  color:black;
 }
  .navContainer > div:hover .navBarLink {
   color: black;
@@ -116,7 +116,7 @@ body {
   background-color: #00abf0;
   position: absolute;
   top: 40%;
-  color: #061722;
+  color: black;
   right: -20px;
 }
 
@@ -129,7 +129,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin: 0;
-  background-color: bisque;
+  background-color: black;
 }
 .writerContainer {
   font-weight: 280px;
@@ -525,7 +525,7 @@ p {
   background: linear-gradient(135deg, #000000, #0a0a0a, #141414, #1f1f1f);
 }
 .eachDo {
-  background-color: #061722;
+  background-color: black;
   border-radius: 1.1rem;
 }
 .para {
@@ -584,7 +584,7 @@ p {
 /* queries start */
 @media (max-width: 1300px) {
   body {
-    background-color: #061722;
+    background-color: black;
     width: 100%;
     overflow-x: hidden;
     /* width: max-content; */
@@ -614,7 +614,7 @@ p {
     border: solid #00abf0 3px;
   }
   .navBarClose {
-    left: -49.2%;
+    left: -99.8%;
   }
   .homeBText {
     font-size: x-small;
@@ -633,7 +633,7 @@ p {
     width: 100%;
   }
   body {
-    background-color: #061722;
+    background-color: black;
     width: 80%;
     padding: -45px;
     overflow-x: hidden;

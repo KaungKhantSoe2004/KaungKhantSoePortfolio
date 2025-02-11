@@ -2,7 +2,7 @@ export const Home = () => {
   return (
     <div
       data-aos="fade-in"
-      className="home  bg-black  d-flex flex-column align-items-center justify-content-center"
+      className="home   d-flex flex-column align-items-center justify-content-center"
       id="home"
     >
       <h4 className="intro text-center text-info homeUText ">
@@ -12,7 +12,7 @@ export const Home = () => {
       <div className="writerContainer">
         <h2 className="text-writer z-3"></h2>
       </div>
-      <h5 className=" mt-2 text-muted homeBText">
+      <h5 className=" mt-2 text-muted homeBText abs">
         I can help you with Clean, Smooth, Elegant and User-friendly Websites.
       </h5>
     </div>

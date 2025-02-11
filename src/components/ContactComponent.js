@@ -134,7 +134,6 @@ export const Contact = () => {
             <button
               type="submit"
               value="Send"
-              
               className="contactBtn col-3 p-1 my-2"
             >
               {isLoading ? "loading" : "Send"}

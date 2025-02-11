@@ -1,16 +1,44 @@
+import { motion } from "framer-motion"; // Import Framer Motion
 import { PortfolioBox } from "./portfolioBox";
-// import "avatars-0000"
+
 export const Portfolio = () => {
+  // Animation variants for the container
+  const containerVariants = {
+    hidden: { opacity: 0, scale: 0.8 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        delayChildren: 0.3, // Delay children animations
+        staggerChildren: 0.2, // Stagger animations for each child
+      },
+    },
+  };
+
+  // Animation variants for each project item
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 },
+  };
+
   return (
-    <div
+    <motion.div
       data-aos="zoom-out"
       data-aos-once="true"
-      className="protfolioContainer my-3 container bg-black "
+      className="protfolioContainer my-3 container bg-black"
+      variants={containerVariants}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: false }} // Animate only once
     >
-      <div className=" d-flex justify-content-center mt-3">
-        <h3 className=" pt-4 pb-1 text-center myPortfolio">My Portfolio</h3>
+      <div className="d-flex justify-content-center mt-3">
+        <h3 className="pt-4 pb-1 text-center myPortfolio">My Portfolio</h3>
       </div>
-      <div className="projectsContainer row ps-md-4 ps-1">
+      <motion.div
+        className="projectsContainer row ps-md-4 ps-1"
+        variants={containerVariants}
+      >
+        {/* <motion.div variants={itemVariants}> */}
         <PortfolioBox
           img={require("./img/adminAmzscout.png")}
           name={"Han-commerce Backend project (##InProgress) "}
@@ -18,6 +46,8 @@ export const Portfolio = () => {
           link={"https://github.com/KaungKhantSoe2004/han-commerce-backend"}
           lang={" used Html, Css, Bootstrap, mysql and Laravel// React Version"}
         />
+        {/* </motion.div> */}
+        {/* <motion.div variants={itemVariants}> */}
         <PortfolioBox
           img={require("./img/han-commerce.jpeg")}
           name={"Han-commerce Front-end project (##InProgress) "}
@@ -27,7 +57,8 @@ export const Portfolio = () => {
             " used Html, Css, Tailwind Css, React,React-redux //React Version "
           }
         />
-
+        {/* </motion.div> */}
+        {/* <motion.div variants={itemVariants}> */}
         <PortfolioBox
           img={require("./img/recipe.png")}
           name={"Recipe App "}
@@ -35,6 +66,8 @@ export const Portfolio = () => {
           link={"https://kaung-khant-soe-recipe-app.vercel.app/"}
           lang={" used Html, Css, React and the Meal db Api"}
         />
+        {/* </motion.div> */}
+        {/* <motion.div variants={itemVariants}> */}
         <PortfolioBox
           img={require("./img/workout.png")}
           ke={"3"}
@@ -43,16 +76,9 @@ export const Portfolio = () => {
           lang={" used Html, Css, Js, Bootstrap, React and WorkOut Api "}
         />
         <PortfolioBox
-          img={require("./img/lms-student-side.png")}
-          name={" Learning Management System Student Side "}
-          ke={1}
-          link={"https://github.com/KaungKhantSoe2004/studentSideLms"}
-          lang={" used Html, Css, Js,Bootstrap, React, Laravel API"}
-        />
-        <PortfolioBox
           img={require("./img/lms-admin-side.png")}
           name={
-            " Learning Management System Admin side with OTP login and paypal payment system"
+            " Learning Management System Full stack with OTP login and paypal payment system"
           }
           ke={7}
           link={"https://github.com/KaungKhantSoe2004/adminSideLMS/tree/master"}
@@ -68,25 +94,18 @@ export const Portfolio = () => {
           ke={"4"}
           lang={" used Html, Css, Js, Bootstrap, Laravel"}
         />
-
-        <PortfolioBox
-          img={require("./img/admin-side-news.png")}
-          name={"Media Project with Admin Panel "}
-          ke={5}
-          link={
-            "https://github.com/KaungKhantSoe2004/LinCodeLabMedia/tree/master"
-          }
-          lang={" used Html, Css, Bootstrap, and Laravel"}
-        />
-        <PortfolioBox
+        {/* </motion.div> */}
+        {/* <motion.div variants={itemVariants}> */}
+        {/* <PortfolioBox
           img={require("./img/user-side-news.png")}
           link={"https://github.com/KaungKhantSoe2004/userSidemedia"}
           name={"News Website user Side  "}
           ke={6}
           lang={" used Html, Css, Js, Vuejs"}
-        />
-
-        <PortfolioBox
+        /> */}
+        {/* </motion.div> */}
+        {/* <motion.div variants={itemVariants}> */}
+        {/* <PortfolioBox
           img={require("./img/pizza-order-system.png")}
           name={"Pizza order System with Admin Panel and User side"}
           link={
@@ -94,39 +113,9 @@ export const Portfolio = () => {
           }
           ke={2}
           lang={" used Html, Css, Js, Bootstrap, Laravel"}
-        />
-
-        {/* <PortfolioBox
-          img={require("./img/Screenshot (4).png")}
-          name={"Note App"}
-          ke={8}
-          lang={" used Html, Css, Js, React"}
         /> */}
-        {/* <PortfolioBox
-          img="./img/Screenshot (5).png"
-          name={"Weather App"}
-          ke={9}
-          lang={" used Html, Css, Js, React"}
-        />
-        <PortfolioBox
-          img={require("./img/Screenshot (7).png")}
-          name={"Lin Recipe App "}
-          ke={10}
-          lang={" used Html, Css, Js, React"}
-        /> */}
-        {/* <PortfolioBox
-          img={require("./img/Screenshot (10).png")}
-          name={"E-Commerce Store with dashboard "}
-          ke={11}
-          lang={" used Html, Css, Js, React, Php, Laravel"}
-        />
-        <PortfolioBox
-          img={require("./img/Screenshot (12).png")}
-          name={" Lin Chat App "}
-          ke={12}
-          lang={" used Html, Css, Js, React, Laravel"}
-        /> */}
-      </div>
-    </div>
+        {/* </motion.div> */}
+      </motion.div>
+    </motion.div>
   );
 };
