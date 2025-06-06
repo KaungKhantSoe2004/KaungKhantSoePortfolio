@@ -41,18 +41,18 @@ export const Portfolio = () => {
         {/* <motion.div variants={itemVariants}> */}
         <PortfolioBox
           img={require("./img/adminAmzscout.png")}
-          name={"Han-commerce Backend project (##InProgress) "}
+          name={"Han-commerce Backend project "}
           ke={5}
-          link={"https://github.com/KaungKhantSoe2004/han-commerce-backend"}
+          link={"http://help.z256600-ll9lz.ps02.zwhhosting.com/"}
           lang={" used Html, Css, Bootstrap, mysql and Laravel// React Version"}
         />
         {/* </motion.div> */}
         {/* <motion.div variants={itemVariants}> */}
         <PortfolioBox
           img={require("./img/han-commerce.jpeg")}
-          name={"Han-commerce Front-end project (##InProgress) "}
+          name={"Han-commerce Front-end project  "}
           ke={5}
-          link={"https://github.com/KaungKhantSoe2004/han-commerce-f-end"}
+          link={"http://z256600-ll9lz.ps02.zwhhosting.com/"}
           lang={
             " used Html, Css, Tailwind Css, React,React-redux //React Version "
           }
